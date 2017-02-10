@@ -59,7 +59,7 @@ public class MenuActivity extends Activity implements View.OnClickListener {
         lvMenu = (ListView) findViewById(R.id.lvMenu);
         bHelp = (Button)findViewById(R.id.bHelp);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, TextsEN.getMenu());
+        MenuAdapter adapter = new MenuAdapter(MenuActivity.this, TextsEN.getMenu());
 
         lvMenu.setAdapter(adapter);
 
@@ -88,15 +88,19 @@ public class MenuActivity extends Activity implements View.OnClickListener {
                         i2.putExtra("complexity", "");
                         startActivity(i2);
                         break;
-                    case 3:
-                        Intent i3 = new Intent(getApplicationContext(), GraphActivity.class);
-                        i3.putExtra("title", TextsEN.getMenuByPosition(3));
-                        i3.putExtra("algorithm", 3);
-                        i3.putExtra("description",TextsEN.getDescriptionByPosition(0));
-                        i3.putExtra("complexity", TextsEN.getComplexityByPosition(0));
-                        startActivity(i3);
+                    case 3: //OK
+                        if(!Controller.getGraph().isDirected()){
+                            Intent i3 = new Intent(getApplicationContext(), GraphActivity.class);
+                            i3.putExtra("title", TextsEN.getMenuByPosition(3));
+                            i3.putExtra("algorithm", 3);
+                            i3.putExtra("description",TextsEN.getDescriptionByPosition(0));
+                            i3.putExtra("complexity", TextsEN.getComplexityByPosition(0));
+                            startActivity(i3);
+                        }else
+                            Toast.makeText(MenuActivity.this, TextsEN.getErrorByPosition(8), Toast.LENGTH_LONG).show();
+
                         break;
-                    case 4:
+                    case 4: //OK
                         Intent i4 = new Intent(getApplicationContext(), InputActivity.class);
                         i4.putExtra("algorithm", 4);
                         i4.putExtra("title", TextsEN.getMenuByPosition(4));

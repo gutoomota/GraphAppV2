@@ -11,7 +11,7 @@ import guto.com.graphapp.structures.Graph;
  */
 public class Controller {
 
-    static Graph graph;
+    private static Graph graph;
 
     public static Graph getGraph() {
         return graph;

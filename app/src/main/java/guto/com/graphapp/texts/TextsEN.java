@@ -42,12 +42,14 @@ public class TextsEN {
                     "\nThis Vertex already exist.",
             "ERROR" +
                     "\nThe only path with weight '0' is the path from a vertex to itself." +
-                    "\nWhich can't be inserted."
+                    "\nWhich can't be inserted.",
+            "ERROR" +
+                    "\n\"The graph is directed.\"",
     };
 
     final static String[] help = {
             "Select if you want to have a directed graph or/and a random graph.\n" +
-                    "Tap just the NEXT button for none of these.",
+                    "Tap just the START button for none of these.",
             "Tap the option you would like to use in the list.\n" +
                     "Select the last item to restart the app.\n" +
                     "Tap twice the back button to close the app.",
@@ -62,7 +64,7 @@ public class TextsEN {
                     "Tap the back button to return to the last view",
     };
 
-    final static String[] description = {"The Kruskal's algorithm, which is an example of a greedy algorithm (always conducting to the choice which seems to be the best at the moment), seeks a minimum spanning tree for a connected graph with weights. This means that it is a subset of edges forming a tree that includes all the vertices, wherein the total weight, given by the sum of the weights of the tree edges, is minimized. If the graph is not connected, then it finds a minimum spanning forest (a minimum spanning tree for each connected component of the graph).",
+    final static String[] description = {"The Kruskal's algorithm, which is an example of a greedy algorithm (always conducting to the choice which seems to be the best at the moment), seeks a minimum spanning tree for a undirected connected graph with weights. This means that it is a subset of edges forming a tree that includes all the vertices, wherein the total weight, given by the sum of the weights of the tree edges, is minimized. If the graph is not connected, then it finds a minimum spanning forest (a minimum spanning tree for each connected component of the graph).",
             "The Dijkstra's algorithm is (also of the \"greedy\" kind) solves the problem of the shortest path between two vertices in a graph weighted directed or undirected.",
             "A BFS is a search method that expands and systematically examines all vertices of a graph directed or undirected. The algorithm ensures that no vertex or edge is played more than once. For this, it uses a queue that ensures the analysis order of each vertex. It works as follows: Given a root, it is analyzed and its direct neighbors are queued. After this, we apply the same steps to the next item of the line, repeating the process until the queue is empty. An well known analogy to demonstrate the operation of the algorithm is painting the vertices of white, gray and black. The vertices in white represent the vertices that have not been marked nor queued, the gray color are the vertices that are in the queue structure and the black color are those who have had queued all its neighboring vertices and marked by algorithm.",
             "The DFS algorithm is used to perform a search or a crossing in a tree, tree structure, or graph. Intuitively, the algorithm starts at a root node (as our case is a graph, the node is previously informed by the user) and explores each of its branches as much as possible. When the end of the way is found, it goes back to the previous vertex to assess whether it is possible to continue the search for another of its neighbors. This process is repeated until all vertices be checked.",

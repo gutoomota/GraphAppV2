@@ -34,7 +34,7 @@
         <item name="android:textColor">#F7FAFC</item>
         <item name="android:padding">15dp</item>
         <item name="android:background">@drawable/btn_custom</item>
-        <item name="android:layout_margin">30dp</item>
+        <item name="android:layout_margin">20dp</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

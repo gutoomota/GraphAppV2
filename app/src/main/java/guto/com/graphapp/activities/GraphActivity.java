@@ -315,10 +315,14 @@ public class GraphActivity extends AppCompatActivity implements View.OnClickList
         switch (algorithm){
             case 2:
                 graphAux = graph;
-                bDescription.setEnabled(false);
+                bDescription.setVisibility(View.GONE);
                 break;
             case 3:
                 graphAux = graph.kruskal();
+                /*if (graphAux.getVertices().get(0).getName().equals("directed")) {
+                    Toast.makeText(this, TextsEN.getErrorByPosition(8), Toast.LENGTH_LONG).show();
+                    finish();
+                }*/
                 bDescription.setOnClickListener(this);
                 break;
             case 4:

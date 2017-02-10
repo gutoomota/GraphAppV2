@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:focusable="false" >
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/graph"
+            android:gravity="center_horizontal"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="#666600"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emulat"
+                android:gravity="center_horizontal"
+                android:textSize="80sp"
+                android:textStyle="bold"
+                android:textColor="#666600"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="r"
+                android:gravity="center_horizontal"
+                android:textSize="80sp"
+                android:textStyle="bold"
+                android:textColor="#666600"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>-->
+</RelativeLayout>

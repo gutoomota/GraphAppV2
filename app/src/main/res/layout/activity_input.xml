@@ -125,6 +125,6 @@
         android:text="@string/next"
         android:gravity="center"
         style="@style/button_custom"
-        android:layout_gravity="bottom|center_horizontal" />
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

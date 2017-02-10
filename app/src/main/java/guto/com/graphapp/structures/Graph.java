@@ -334,6 +334,30 @@ public class Graph {
     public Graph kruskal() {
         Edge edge;
         Graph result = new Graph();
+
+        if(directed){
+            result.addVertex("directed");
+        }else{
+            for (int i = 0; i < getEdges().size(); i++) {
+                // look for the unvisited edge with the lower weight
+                edge = lowerWeight();
+
+                if (!result.hasCycle(edge))
+                    result.addEdge(edge.getWeight(), edge.getStart().getName(), edge.getEnd().getName());
+            }
+
+            for (Vertex v: vertices){
+                if(result.vertexLocation(v.getName())==result.getVertices().size()||!result.isConnected()){
+                    result.addVertex(v.getName());
+                }
+            }
+        }
+        return result;
+    }
+
+    /*public Graph kruskal() {
+        Edge edge;
+        Graph result = new Graph();
         result.setDirected(directed);
         result.addVertex(this.getVertices().get(0).getName()); //adding the first vertex
 
@@ -358,7 +382,7 @@ public class Graph {
         }
 
         return result;
-    }
+    }*/
 
     // look for the unvisited edge with the lower weight
     public Edge lowerWeight() {

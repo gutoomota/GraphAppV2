@@ -19,5 +19,6 @@
         android:layout_margin="10dp"
         android:paddingRight="10dp"
         android:paddingLeft="10dp"
+        android:fadeScrollbars="false"
         android:id="@+id/lvMenu"/>
 </LinearLayout>
