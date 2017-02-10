@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_cd8fc0da1fbf6faa7c846d24779db5d5b0de19fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_09ebcba753dda587c0319da152cab162cb8baa4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c1ef44fd167960952eafb9fc96f74dfece74ed">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_b6506da4eddba2c00d09cc02f02c704c7753978e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_0fbff593a66384239d7a5f9e7c537e964374983c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05d44526c7e7e207d012bb133fadc67c89e9b0aa">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\instant-run_285d00701482d4b6d7df850bca071a6c76b5496f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_6a5b41200f9c9c72e5c8cf6244b6e9eb273cc876.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_6ba9f77ccf266ecc4e242e2fd9426b74eeac01ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_3ce65de7bb4c5ade36179e2245052dc4a21ebaf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_6a80cc9536ff5d0ea973b353d632cabe6f8cc36d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_978d8d46783b2185e1be38cdd81cbfc370dbc76f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_bc8fc49d23d1490b3159c9ee38a798566d5bbe01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Guto\workspace\GraphApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_3a14471e45af64efce0914731d505d5a2af89c6b.jar" />
+    </item>
+
+</items>

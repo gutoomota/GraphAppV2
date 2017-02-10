@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bckgrd" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <include
+            layout = "@layout/bar_title" />
+          />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/title"
+        android:text="@string/features"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4D006666"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:padding="20dp" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/cbDirected"
+                style="@style/rbCustom"
+                android:text="@string/directed_graph"
+                android:layout_marginBottom="10dp"/>
+            <CheckBox
+                android:id="@+id/cbRandom"
+                style="@style/rbCustom"
+                android:text="@string/random_graph" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bStart"
+        android:text="@string/start"
+        android:layout_gravity="bottom|center_horizontal"
+        style="@style/button_custom"
+        android:layout_width="match_parent" />
+
+</LinearLayout>

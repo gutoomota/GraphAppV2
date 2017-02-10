@@ -1,0 +1,34 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+    	android:state_pressed="true" >
+        <layer-list>
+		   <item>
+			    <shape>
+		          <padding
+			         android:left="10dp"
+			         android:top="10dp"
+			         android:right="10dp"
+			         android:bottom="10dp" />
+			    </shape>
+  			</item>
+  			<item 
+        		android:drawable="@drawable/bt_info_on" />
+  		</layer-list>
+    </item>
+    <item
+        android:state_pressed="false" >
+        <layer-list>
+		   <item>
+			    <shape>
+		          <padding
+			         android:left="10dp"
+			         android:top="10dp"
+			         android:right="10dp"
+			         android:bottom="10dp" />
+			    </shape>
+  			</item>
+  			<item 
+        		android:drawable="@drawable/bt_info_off" />
+  		</layer-list>
+    </item>
+</selector>
